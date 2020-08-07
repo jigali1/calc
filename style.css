@@ -1,0 +1,170 @@
+.container {
+	height: 600px;
+	width: 400px;
+	background-color: #fbd2b3;
+	margin: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.calc {
+	height: 90%;
+	width: 85%;
+	margin: auto;
+	background-color: #000;
+	border-radius: 25px;
+	padding: 5%;
+	box-sizing: border-box;
+}
+
+.display {
+	height: 22%;
+	border-radius: 30px;
+	border: 2px solid #626262;
+	box-sizing: border-box;
+	color: #fcfcfc;
+	text-align: right;
+	padding: 10px 20px 0 0;
+}
+
+.displayTop {
+	font-size: 24px;
+	text-align: bottom;
+	height: 24px;
+}
+
+.displayBottom {
+	font-size: 54px;
+}
+
+.keyboard {
+	height: 73%;
+	border-radius: 30px;
+	border: 2px solid #626262;
+	box-sizing: border-box;
+	margin-top: 15px;
+	padding: 15px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.button {
+	width: 23%;
+	height: 18%;
+	background-color: #585858;
+	color: #fbfbfb;
+	border-radius: 50%;
+	font-family: sans-serif;
+	font-size: 42px;
+	text-align: center;
+	cursor: default;
+}
+
+.b_orange {
+	background-color: #f26909;
+	font-size: 38px;
+}
+
+.b_orange p {
+	padding-top: 10px;
+}
+
+.clear {
+	width: 73.5%;
+	background-color: #c2c2c2;
+	color: #000103;
+	border-radius: 30px;
+	font-size: 42px;
+	text-transform: uppercase;
+	opacity: 1;
+}
+
+.b_0 {
+	width: 48.5%;
+	border-radius: 30px;
+}
+
+p {
+	margin: auto;
+	padding-top: 5px;
+}
+
+.banner {
+	text-align: center;
+	font-family: sans-serif;
+	margin-top: 50px;
+	font-size: 42px;
+	font-weight: 600;
+	white-space: nowrap;
+}
+
+.button:hover {
+	background-color: #9b9b9b;
+}
+
+.b_orange:hover {
+	background-color: #f8b278;
+}
+
+.clear:hover {
+	background-color: #ddd;
+}
+
+
+
+
+@media (max-device-width: 1280px) {
+	.container{
+		top: 0;
+		left: 0;
+		position: absolute;
+		height: 82%;
+		width: 100%;
+	}
+
+	.calc {
+		border-radius: 50px;
+	}
+
+	.display {
+		border-radius: 60px;
+		border: 4px solid #626262;
+		padding: 20px 40px 0 0;
+	}
+
+	.displayTop {
+		font-size: 48px;
+		text-align: bottom;
+		height: 48px;
+	}
+
+	.displayBottom {
+		margin-top: 25px;
+		font-size: 108px;
+	}
+
+	.keyboard {
+		border-radius: 10%;
+		border: 4px solid #626262;
+		margin-top: 30px;
+		padding: 5%;
+	}
+
+	.button {
+		font-size: 96px;
+	}
+
+	.clear {
+		border-radius: 90px;
+	}
+
+	.b_0 {
+		border-radius: 90px;
+	}
+
+	.banner {
+		margin-top: 100px;
+		font-size: 76px;
+	}
+}
